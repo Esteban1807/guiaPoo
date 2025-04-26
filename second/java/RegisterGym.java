@@ -24,7 +24,7 @@ public class RegisterGym {
         return this.plan;
     }
     public static void main(String[] args) {
-        Person person = new Person(1, "Andrés", "Guti", 55, 160, 2); 
+        Person person = new Person(21, "Esteban", "Ome", 67, 167, 2); 
         RegisterGym registerGym = new RegisterGym(person, null);
 
         System.out.println("Identification: " + registerGym.person.getIdentification());
