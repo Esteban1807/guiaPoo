@@ -5,7 +5,7 @@
     include('libreria/basic.php');
     include('libreria/medium.php');
     include('libreria/premium.php');
-    $person = new Person(12, "Andrés", "Guti", 55, 150, 1);
+    $person = new Person(23, "Esteban", "Ome", 67, 167, 2);
     $registerGym = new RegisterGym();
     $registerGym->setPerson($person);
 ?>
